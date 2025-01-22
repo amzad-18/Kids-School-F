@@ -504,9 +504,7 @@ h1 .blue {
 
   .navbar,
   .container {
-    flex-direction: flex;
-    justify-content: space-between;
-    gap: 70px;
+    flex-direction: column;
   }
 
   .footer-sec1 {
@@ -522,15 +520,11 @@ h1 .blue {
 
   /* Navbar adjustments */
   .navbar {
-    
-    /* display: flex;
-    justify-content:space-between ; */
-    /* gap: 20px;
-    margin: 10px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
     max-width: 100%;
-  }
-  .logo{
-    justify-content: left;
   }
 
   .nav-links {
@@ -540,9 +534,6 @@ h1 .blue {
 
   .navbar-image{
     display: block;
-    
-    display: flex;
-    width: 20%;
   }
 
   .marq {
@@ -617,6 +608,11 @@ h1 .blue {
   .os-card-container {
     flex-direction: column;
     gap: 20px;
+  }
+  .os-btn{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .occ-1 {
