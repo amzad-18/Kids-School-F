@@ -501,17 +501,18 @@ text-align: left;
     align-items: center;
     gap: 20px;
     margin: 10px;
+    max-width: 100%;
   }
 
   .nav-links {
-    flex-direction: column;
-    gap: 15px;
+    display: block;
+    display: none;
   }
 
   .contact-btn {
-    width: 100%;
-    max-width: 300px;
-    font-size: 1rem;
+    display: block;
+    display: none;
+    background-image: url(../assets/—Pngtree—\ icon_4697369.png);
   }
 
   /* Container adjustments */
@@ -541,10 +542,9 @@ text-align: left;
   }
 
   .image-section {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 20px auto;
+    
+    max-width:  60%;
+    
   }
 
   /* Cards adjustments */
@@ -563,7 +563,7 @@ text-align: left;
   /* Our Stories Section */
   .os-sec {
     height: auto;
-    padding: 20px;
+    padding:0px
   }
 
   .os-card-container {
@@ -571,17 +571,27 @@ text-align: left;
     gap: 20px;
   }
 
-  .occ-1,
+  .occ-1{
+    display: block;
+    display: none;
+  }
   .occ-substory {
     width: 100%;
     max-width: 320px;
     height: auto;
   }
 
-  .occ-img1,
+  .occ-img1{
+
+  display: block;
+  }
   .occ-subimg {
     width: 100%;
     height: auto;
+  }
+  .occ2-date{
+    max-width: 50%;
+    align-items: center;
   }
 
   .os-btn {
@@ -594,7 +604,8 @@ text-align: left;
     text-align: center;
     padding: 20px;
     gap: 20px;
-  }
+    height: 100%;
+    max-width: 100%;  }
 
   .Kids-edu {
     flex-direction: column;
@@ -603,5 +614,7 @@ text-align: left;
 
   .kids-parafoot {
     width: 100%;
+    font-size: small;
   }
+
 }
