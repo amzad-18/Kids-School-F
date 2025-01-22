@@ -484,3 +484,9 @@ text-align: left;
 }
 
 /* Responsive For Mobile Device */
+@media only screen and (max-width: 576px) {
+  .navbar,.container{
+  flex-direction: column;
+  }
+
+}
